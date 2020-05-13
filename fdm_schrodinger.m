@@ -25,7 +25,7 @@ number_of_data_points = 1000;
 % If you want periodic boundary conditions, mark this variable as true.
 % Otherwise, leave it at its default value of false.
 
-periodic_boundary_conditions = false;
+periodic_boundary_conditions = true;
 
 
 %% Select Potential Energy
@@ -40,8 +40,8 @@ sym_double_square_well = false;
 finite_square_barrier = false;
 coulomb_potential = false;
 step_potential = false;
-harmonic_oscillator = false;
-half_harmonic_oscillator = true;
+harmonic_oscillator = true;
+half_harmonic_oscillator = false;
 random_potential = false;
 
 
